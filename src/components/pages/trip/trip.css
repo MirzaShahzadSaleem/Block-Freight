@@ -1,0 +1,102 @@
+.trip{
+    flex: 4;
+    border-style: hidden;
+    /* border-radius: 60px; */
+    width: 400px;
+    height: 500px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    text-align: center;
+    background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0));
+    backdrop-filter: "blur(10px)"; 
+    box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
+    /* box-shadow: 20px 20px 50px 20px rgb(109, 54, 120); */
+    /* box-shadow: 1px 10px 14px 10px rgba(153,56,144,0.75);
+    -webkit-box-shadow: 1px 10px 14px 10px rgba(153,56,144,0.75);
+    -moz-box-shadow: 1px 10px 14px 10px rgba(153,56,144,0.75); */
+}
+body{
+    padding-left: 0px;
+    font-weight: bold;
+  }
+  
+  .h1{
+    margin-top: 0px;
+    font-size: 30px; 
+    color: white;
+    stroke: black;
+    stroke-width: 1px;
+  }
+  .label {
+    padding: 12px 30px;
+    margin: 12px 8px;  
+    color: white;
+    stroke: black;
+  }
+  form {
+    /* display: flexbox; */
+    margin: auto;
+  }
+  
+  input {
+    width: 25%;
+    display: inline-flex;
+    padding: 5px 10px;
+    margin: 10px 8px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 249, 249);
+    color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  img{
+    width: 10px;
+    height: 30px;
+  }
+  button {
+    font-weight: bold;
+    background-color: rgb(242, 161, 250);
+    border: none;
+    color: black;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 12px 8px;
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 8px 6px -4px black;
+    margin-left: 22px;
+  }
+  
+  button:hover {
+    background-color: rgb(239, 211, 253);
+    cursor: pointer;
+  }
+  
+  select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  @media screen and (max-width:900px) {
+    .main-container{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+  }
+  
+  
